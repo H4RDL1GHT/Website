@@ -1,0 +1,72 @@
+/*This document acts the roots for the css throughout the webpages.*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.class1{
+    color: #ff0000;
+}
+body{
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main main aside"
+        "footer footer footer"
+    ;
+    height: max-content;
+}
+.page_links{
+    list-style: none;
+}
+nav{
+    background-color: darkcyan;
+    color: azure;
+    grid-area: nav;
+}
+main{
+    background-color: darkgray;
+    grid-area:main;
+}
+aside{
+    background-color: aqua;
+    grid-area: aside;
+}
+header{
+    background-color: cadetblue;
+    grid-area: header;
+    padding:20px;
+}
+footer{
+    background-color: blue;
+    grid-area:footer;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+.main_proj{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.Div{
+    margin:auto;
+}
+
+.a_nav{
+    display:block;
+    padding: 10px;
+    background-color: darkcyan;
+}
+.img1{
+    height: 50px;
+    width: auto;
+}
+.foot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

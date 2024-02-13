@@ -30,6 +30,7 @@ nav{
 main{
     background-color: darkgray;
     grid-area:main;
+    min-height: 90vh;/*This will allow the webpage to auto fill 90% of the screen upon loading*/
 }
 aside{
     background-color: aqua;
